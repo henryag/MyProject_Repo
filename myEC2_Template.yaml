@@ -6,7 +6,7 @@ Resources:
   MyEC2Instance:
     Type: AWS::EC2::Instance
     Properties:
-      AvailabilityZone: "us-east-1a"
+      AvailabilityZone: "us-west-1a"
       ImageId: "ami-0889a44b331db0194"
       InstanceType: "t2.micro"
       Tags: 
